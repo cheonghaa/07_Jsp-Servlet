@@ -27,10 +27,10 @@
             <li>
                 <label for="male">남</label>
                 <input type="radio" id="male" name="sex" value="남자" checked>
-                <label for=female">여</label>
+                <label for="female">여</label>
                 <input type="radio" id="female" name="sex" value="여자">
             </li>
-            <li><input type="submit" value="전송"></li>
+            <input type="submit" value="전송">
 
         </ul>
     </fieldset>

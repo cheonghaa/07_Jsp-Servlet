@@ -12,7 +12,7 @@ public class SportsServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 
-        response.setCharacterEncoding("UTF-8");
+       // response.setCharacterEncoding("UTF-8");
 
         String[] sports = request.getParameterValues("sports");
         String sex = request.getParameter("sex");
